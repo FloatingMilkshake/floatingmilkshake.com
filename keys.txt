@@ -1,4 +1,4 @@
-# SSH Keys as of 2023-04-29
+# SSH Keys as of 2023-10-06
 
 # Termius - synced with Termius account, available everywhere
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN6Y5r10ImQSB7bYGhRXcRnc8SWVaVLst78TIgNNGXIb
@@ -11,3 +11,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINAWvEV2cu4kVFS/VwtZWUH7TRnrQBkaqPRSPyAGOCeP
 
 # ServerCat on iPhone 11 - not synced across devices
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINwCFrK2BllFoSNdMCFQ/WzK2voEuJXe4U7XIOxGdFsr
+
+# Key stored in Secure Enclave on M2 MacBook Air
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCcQINiEwJq/rjLb3ZUZSoK+QeqNBd/5BeP+Vf4zYf+z6fBZIPkkA7d0odskDLnHeXcB62xUkt63N+8RMqABBiA=
