@@ -1,4 +1,4 @@
-# SSH Keys as of 2023-10-06
+# SSH Keys as of 2024-01-03
 
 # Termius - synced with Termius account, available everywhere
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN6Y5r10ImQSB7bYGhRXcRnc8SWVaVLst78TIgNNGXIb
@@ -6,10 +6,10 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN6Y5r10ImQSB7bYGhRXcRnc8SWVaVLst78TIgNNGXIb
 # YubiKey 5 NFC
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIOHEGF6zv+DabFaBwx4lorr1uLPrWGdFASWngVJEZYl8AAAABHNzaDo=
 
-# PC, server
+# Multipurpose key, passed between devices when better-protected keys cannot be used
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINAWvEV2cu4kVFS/VwtZWUH7TRnrQBkaqPRSPyAGOCeP
 
-# ServerCat on iPhone 11 - not synced across devices
+# ServerCat
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINwCFrK2BllFoSNdMCFQ/WzK2voEuJXe4U7XIOxGdFsr
 
 # Key stored in Secure Enclave on M2 MacBook Air
