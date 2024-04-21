@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>What time is it for me?</title>
+	<link href="https://cdn.floatingmilkshake.com/avatar.png" rel="icon">
+	<link href="/styles.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+	<script defer data-domain="floatingmilkshake.com" src="https://plausible.floatingmilkshake.com/js/plausible.js"></script>
+</head>
+<body>
+	<h1>What time is it for me?</h1>
+	<p>It is currently <span id="time" style="font-weight: bold">checking...</span> for me.</p>
+
+	<!-- footer -->
+	<br>
+	<hr>
+	<p>
+		<a href="https://floatingmilkshake.com" title="Go home.">Home</a> |
+		<a href="https://github.com/FloatingMilkshake/floatingmilkshake.com" title="The source code for this site!">Source</a> |
+		<a href="https://floatingmilkshake.com/privacy" title="My Privacy Policy">Privacy Policy</a> |
+		<a href="https://floatingmilkshake.com/terms" title="My Terms of Service">Terms of Service</a> |
+		<a href="https://haste.floatingmilkshake.com" title="Need to throw some code somewhere?">Hastebin</a> |
+		<a href="https://floatingmilkshake.com/time" title="You are here!">Time</a> |
+		<span title="Hmm...">More coming soon...?</span>
+	</p>
+
+	<script>
+		function updateTime() {
+			const now = new Date();
+			const date = now.toLocaleTimeString("en-US", {
+				weekday: "long",
+				month: "long",
+				day: "numeric",
+				year: "numeric",
+				hour: "numeric",
+				minute: "numeric",
+				second: "numeric",
+				timeZone: "America/New_York"
+			});
+			document.querySelector("#time").textContent = date;
+		}
+
+		setInterval(updateTime, 1000);
+	</script>
+</body>
+</html>
