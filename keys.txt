@@ -1,4 +1,4 @@
-# SSH Keys as of 2024-01-03
+# SSH Keys as of 2025-01-08
 
 # Termius - synced with Termius account, available everywhere
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN6Y5r10ImQSB7bYGhRXcRnc8SWVaVLst78TIgNNGXIb
@@ -14,3 +14,12 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINwCFrK2BllFoSNdMCFQ/WzK2voEuJXe4U7XIOxGdFsr
 
 # Key stored in Secure Enclave on M2 MacBook Air
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCcQINiEwJq/rjLb3ZUZSoK+QeqNBd/5BeP+Vf4zYf+z6fBZIPkkA7d0odskDLnHeXcB62xUkt63N+8RMqABBiA=
+
+# Horizon
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJhTr75JjDMPln6u5wOnAquhEUZg0wmDz54CHO6NnQoS
+
+# Polaris
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGS+9kak8BM4ALvi0chSKY8WKGWNtrdsnyCpY8BMiY2G
+
+# meow
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ+2yxf7Vpu4iOvYAX7yEZiZwZ7IJrCjsjOObwnmIk3f
