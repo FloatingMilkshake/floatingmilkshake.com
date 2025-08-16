@@ -1,5 +1,20 @@
+html {
+    height: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background: linear-gradient(#5d526b, #343434);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: linear-gradient(#5d526b, #000000);
+    }
+}
+
 body {
-    background-color: #343434;
     color: #FFFFFF;
     max-width: 650px;
     padding: 0px 10px;
