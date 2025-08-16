@@ -8,12 +8,8 @@ body {
     font-weight: 300;
 }
 
-center {
-    margin: 40px 0;
-}
-
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 26px;
 }
 
@@ -43,4 +39,17 @@ li::before {
 
 .small {
     font-size: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#container p {
+    margin-left: 1em;
 }
