@@ -12,26 +12,28 @@
 	<script defer src="https://umami.floatingmilkshake.com/script.js" data-website-id="4eba1b96-c160-4741-9038-0cb8d5b888e2"></script>
 </head>
 <body>
-	<h1>What time is it for me?</h1>
-	<p>It is currently <span id="time" style="font-weight: bold">checking...</span> for me.</p>
+	<div id="main-container">
+		<h1>What time is it for me?</h1>
+		<p>It is currently <span id="time" style="font-weight: bold">checking...</span> for me.</p>
 
-	<script>
-		function updateTime() {
-			const now = new Date();
-			const date = now.toLocaleTimeString("en-US", {
-				weekday: "long",
-				month: "long",
-				day: "numeric",
-				year: "numeric",
-				hour: "numeric",
-				minute: "numeric",
-				second: "numeric",
-				timeZone: "America/New_York"
-			});
-			document.querySelector("#time").textContent = date;
-		}
-		updateTime();
-		setInterval(updateTime, 1000);
-	</script>
+		<script>
+			function updateTime() {
+				const now = new Date();
+				const date = now.toLocaleTimeString("en-US", {
+					weekday: "long",
+					month: "long",
+					day: "numeric",
+					year: "numeric",
+					hour: "numeric",
+					minute: "numeric",
+					second: "numeric",
+					timeZone: "America/New_York"
+				});
+				document.querySelector("#time").textContent = date;
+			}
+			updateTime();
+			setInterval(updateTime, 1000);
+		</script>
+	</div>
 </body>
 </html>
