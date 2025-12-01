@@ -1,7 +1,7 @@
-# SSH Keys as of 2025-11-14
+# SSH Keys as of 2025-11-30
 
 # Termius - synced with Termius account, available everywhere
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN6Y5r10ImQSB7bYGhRXcRnc8SWVaVLst78TIgNNGXIb
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgyoGrWYQDHI3oU2OZjAK3XqRJWi8nR7p84ylmn3fuH
 
 # YubiKey 5 NFC
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIOHEGF6zv+DabFaBwx4lorr1uLPrWGdFASWngVJEZYl8AAAABHNzaDo=
