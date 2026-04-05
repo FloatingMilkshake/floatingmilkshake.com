@@ -86,3 +86,21 @@ li::before {
         width: 150px;
     }
 }
+
+p#time {
+    width: fit-content;
+}
+
+p#time:target {
+    animation: flash 1.5s ease-in-out forwards;
+}
+
+@keyframes flash {
+  0%   { background-color: transparent; color: white; }
+  16%  { background-color: #F4C542; color: black; }
+  33%  { background-color: transparent; color: white; }
+  50%  { background-color: #F4C542; color: black; }
+  66%  { background-color: transparent; color: white; }
+  83%  { background-color: #F4C542; color: black; }
+  100% { background-color: #F4C542; color: black; }
+}

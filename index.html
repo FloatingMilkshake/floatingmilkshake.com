@@ -30,6 +30,7 @@
 			</p>
 		</div>
 		<hr>
+		<p id="time">It is currently <span id="time-value" style="font-weight: bold">[sorry, please enable JavaScript! or just check <a href="https://time.is/ET">here</a> instead]</span> for me.</p>
 		<!--sse-->
 		<p>
 			If you'd like to get in touch with me, pick your favorite from the list below. I'm happy to use a different platform if you wish, but please first reach out with one of these!
@@ -46,5 +47,25 @@
 			You can find this website's source code <a href="https://github.com/FloatingMilkshake/floatingmilkshake.com">here</a>.
 		</p>
 	</div>
+
+	<script>
+			function updateTime() {
+				const now = new Date();
+				const date = now.toLocaleTimeString("en-US", {
+					weekday: "long",
+					month: "long",
+					day: "numeric",
+					year: "numeric",
+					hour: "numeric",
+					hour12: false,
+					minute: "numeric",
+					second: "numeric",
+					timeZone: "America/New_York"
+				});
+				document.querySelector("#time-value").textContent = date;
+			}
+			updateTime();
+			setInterval(updateTime, 1000);
+		</script>
 </body>
 </html>
