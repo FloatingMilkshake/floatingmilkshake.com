@@ -95,6 +95,14 @@ p#time:target {
     animation: flash 1.5s ease-in-out forwards;
 }
 
+p#contact {
+    width: fit-content;
+}
+
+p#contact:target {
+    animation: flash 1.5s ease-in-out forwards;
+}
+
 @keyframes flash {
   0%   { background-color: transparent; color: white; }
   16%  { background-color: #F4C542; color: black; }
