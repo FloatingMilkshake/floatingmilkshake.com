@@ -1,20 +1,14 @@
-# SSH Keys as of 2026-05-01
+# SSH Keys as of 2026-09-09
 
-# Termius - synced with Termius account
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgyoGrWYQDHI3oU2OZjAK3XqRJWi8nR7p84ylmn3fuH
+# Termius on iPhone 16, stored in Secure Enclave
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC3R8+2g0R9CXRpqDvPkmzb1E1P7rLdhf+sAesgF/T7qgTCMCuAWODyLpCOjbNmR2Iu4X3GPOH3WSVfjvE/W1R0=
 
 # ServerCat - synced with iCloud
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINwCFrK2BllFoSNdMCFQ/WzK2voEuJXe4U7XIOxGdFsr
 
-# YubiKey 5 NFC
-sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIOHEGF6zv+DabFaBwx4lorr1uLPrWGdFASWngVJEZYl8AAAABHNzaDo=i
-
-# Horizon (Secretive, stored in Secure Enclave)
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCcQINiEwJq/rjLb3ZUZSoK+QeqNBd/5BeP+Vf4zYf+z6fBZIPkkA7d0odskDLnHeXcB62xUkt63N+8RMqABBiA=
-
-# Horizon
+# Neptune
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJhTr75JjDMPln6u5wOnAquhEUZg0wmDz54CHO6NnQoS
 
-# Polaris
+# Mizuki
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGS+9kak8BM4ALvi0chSKY8WKGWNtrdsnyCpY8BMiY2G
 
