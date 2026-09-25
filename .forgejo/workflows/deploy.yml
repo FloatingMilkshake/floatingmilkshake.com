@@ -1,0 +1,24 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect to Tailscale
+        uses: https://github.com/tailscale/github-action@v4
+        with:
+          authkey: ${{ secrets.TS_AUTH_KEY }}
+          statedir: /tmp/tailscale-status/
+
+      - name: Deploy
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ vars.SSH_HOST_KEY }}" >> ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_ed25519 deploy@${{ vars.SSH_HOSTNAME }}
