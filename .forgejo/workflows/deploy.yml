@@ -12,6 +12,7 @@ jobs:
       - name: Connect to Tailscale
         uses: https://github.com/tailscale/github-action@v4
         with:
+          version: latest
           authkey: ${{ secrets.TS_AUTH_KEY }}
           statedir: /tmp/tailscale-status/
 
